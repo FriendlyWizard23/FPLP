@@ -79,7 +79,7 @@ ora, un altro modo per creare una funzione e chiamarla con un parametro subito e
 in questo caso mi restituira' 7
 ```
 
-### Binding
+### BINDING
 - è possibile assegnare a delle incognite un valore ad esempio
 
 ```
@@ -92,7 +92,7 @@ val succ : int -> int = <fun>
 # succ 5 ;;
 - : int = 10
 ```
-### Composizione
+### COMPOSIZIONE DI FUNZIONI
 - ovviamente è possibile fare combinazione di piu funzioni
 - ad esempio, dato succ che fa x+1, se volessi fare la funzione che mi stampa due numeri dopo la x, utilizzando succ, dovrei fare
 ```
@@ -109,7 +109,7 @@ val succsucc : int -> int = <fun>
 
 
 
-### Pattern matching
+### PATTERN MATCHING
 - le espressioni possono essere definite da patern matching
 - i pattern possono contenere costanti, tuple, records,costruttori varianti e nomi varianti
 Quando un pattern viene matchato:
@@ -128,7 +128,7 @@ let invert x =
 let invert' = function
     true -> false | false -> true ;;
 ```
-### Exceptions
+### EXCEPTIONS
 - è possibile "lanciare" le eccezioni tramite la call **raise**
 - > raise (type "msg")
 - **esempio**
@@ -142,22 +142,61 @@ let booleana x=
     
 ```
 
-### Utilizzo di piu parametri
+### PARAMETRI
 - è possibile utilizzare piu parametri per le funzioni nel seguente modo
 ```
 let sumtwo = fun x z -> x + z ;;
 let result4 = sumtwo 4 5 ;;
 ```
 
-### Ricorsione
+### RICORSIONE
 - la ricorsione funziona come negli altri linguaggi
 - bisogna diversificare come sempre caso base e passo ricorsivo etc
 **esempio fattoriale e fibonacci**
 ```
-let rec fact(n) = if n<=1 then 1 else n*fact(n-1);;
-let res = fact(5) ;;
+let rec fact(n) = if n<=1 then 1 else n*fact(n-1)
+let res = fact(5) 
 
-let rec fibonacci(n) = if n<2 then n else fibonacci(n-1)+fibonacci(n-2);;
-let res2 = fibonacci(5) ;;
-print_int(res2) ;;
+let rec fibonacci(n) = if n<2 then n else fibonacci(n-1)+fibonacci(n-2)
+let res2 = fibonacci(5) 
+print_int(res2) 
 ```
+
+### FUNZIONI PURE
+- molto importante in OCAML il concetto di funzioni pure
+- > *A pure function is one without any side effects. A side effect means that the function keeps some sort of hidden state inside it. strlen is a good example of a pure function in C. If you call strlen with the same string, it always returns the same length. The output of strlen (the length) only depends on the inputs (the string) and nothing else. Many functions in C are, unfortunately, impure. For example, malloc. If you call it with the same number, it certainly won't return the same pointer to you. malloc, of course, relies on a huge amount of hidden internal state (objects allocated on the heap, the allocation method in use, grabbing pages from the operating system, etc.).*
+
+- il problema che sorge spontaneo è quello di utilizzare elementi come "print_int" all'interno di una funzione, poichee rendono la funzione impura.
+
+- Per ovviare  a questo "problema" basta separare bene le unita' di lavoro, in questo caso volevo generare una funzione che stampasse la sequenza di fibonacci. Ho quindi
+    1. Scritto la funzione ricorsiva fib che stampa il numero di fiboancci per quel numero.
+    2. scritto print_req che mi stampa la sequenza di fibonacci da n ad 1.
+
+```
+let rec fib n =
+        if n<2 then
+                n
+        else(
+             	fib(n-1)+fib(n-2)
+        )
+
+let rec print_seq n =
+        print_int(fib n);
+        print_string "\n";
+        if n < 2 then
+                n
+        else
+            	print_seq (n-1)
+
+let result = print_seq(10);;
+
+
+```
+
+- NB: **Non esistono cicli! tutto tramite ricorsione**
+
+### LISTE
+#### OPERATORE ::
+- crea una lista da un singolo elemento ed una lista
+- ad esepmio <code>1::[2;3]</code> crea la lista <code>[1;2;3]</code>
+- si può utilizzare <code>1::[]</code> per creare una lista con il valore 1 al suo interno
