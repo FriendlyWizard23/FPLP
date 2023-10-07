@@ -6,7 +6,6 @@
 - Lunedi:
 - Martedi:
 
-# LEZIONE 1: Introduzione
 ## Definizione ed intro
 - non ci sono cicli, loop, for etc
 - utilizzo di funzioni e basta
@@ -33,7 +32,7 @@
 - se M ed N sono delle delta expressions allora (MN) è una delta expression
 
 ...
-# LEZIONE 1: OcaML
+# LINGUAGGIO 1: OcaML
 - ML è un acronimo di MetaLanguage, è una astrazione del delta-calculus polimorfo
 - ha una serie di caratteristiche:
     - **eager evaluation** = Tutte le sub-expressions sono sempre evaluated. è possibile anche effettuare "Lazy Evaluation"
@@ -128,6 +127,8 @@ let invert x =
 let invert' = function
     true -> false | false -> true ;;
 ```
+
+- in questo secondo caso il parametro è implicito!
 ### EXCEPTIONS
 - è possibile "lanciare" le eccezioni tramite la call **raise**
 - > raise (type "msg")
@@ -162,6 +163,10 @@ let res2 = fibonacci(5)
 print_int(res2) 
 ```
 
+### OPERATORE WHEN
+- permette di fare una evalutation della condizione dopo il pattern match
+
+
 ### FUNZIONI PURE
 - molto importante in OCAML il concetto di funzioni pure
 - > *A pure function is one without any side effects. A side effect means that the function keeps some sort of hidden state inside it. strlen is a good example of a pure function in C. If you call strlen with the same string, it always returns the same length. The output of strlen (the length) only depends on the inputs (the string) and nothing else. Many functions in C are, unfortunately, impure. For example, malloc. If you call it with the same number, it certainly won't return the same pointer to you. malloc, of course, relies on a huge amount of hidden internal state (objects allocated on the heap, the allocation method in use, grabbing pages from the operating system, etc.).*
@@ -195,8 +200,82 @@ let result = print_seq(10);;
 
 - NB: **Non esistono cicli! tutto tramite ricorsione**
 
+
+## COLLECTIONS
+
 ### LISTE
 #### OPERATORE ::
 - crea una lista da un singolo elemento ed una lista
 - ad esepmio <code>1::[2;3]</code> crea la lista <code>[1;2;3]</code>
 - si può utilizzare <code>1::[]</code> per creare una lista con il valore 1 al suo interno
+- hanno un costruttore che di fatto e' il <code> :: </code>
+- per istanziare una lista con dei valori basta utilizzare : <code> let list_name=[el1; el2; el3...] </code>
+
+#### Esempio: Trovare numero di occorrenze di una stringa
+
+```
+let list=[1;56;23;45;87;9;23;4;65;1;23;1;1] ;;
+
+let count_element list num =
+        let rec count tot num = function
+                | [] -> tot
+                | h::tl -> if (h==num) then count (tot+1) num tl else count tot>
+        in count 0 num list ;;
+
+let tot = count_element list 1 ;;
+print_int tot ;;
+```
+#### SLICING
+
+
+
+
+### STRINGHE
+- sono native di OCAML
+- si possono fare operazioni:
+    - ^ concatenaione
+    - .[] accesso posizionale ai caratteri
+- sono IMMUTABILI, non possono essere modificate
+```
+let s1 = "test" and s2 = "stringhe" ;;
+val s1 : string = "stringa2" ;;
+
+s1.[2] mi restituisce s
+
+String.length(s) restituisce la lunghezza della stringa
+
+```
+
+### ARRAY
+- sono mutabili
+- hanno un tipo
+```
+let array = [ | 1;2;3|];;
+
+posso accedere ai singoli elementi tramite
+
+array.(2) ;;
+
+posso sostituire elementi tramite operatore freccia
+
+array.(2) <-- 5 ;;
+```
+
+### MATRIX
+```
+let a = Array.make 5 0 ;;
+
+in questo modo genero un array su singola riga
+
+è possibile anche concatenare
+```
+
+### RECORDS
+
+```
+type person = {name: string; mutable age: int} ;;
+
+val p:person = {name = "Mario"; age=20} ;;
+
+```
+
