@@ -202,7 +202,21 @@ let result = print_seq(10);;
 
 
 ## COLLECTIONS
+### STRINGHE
+- sono native di OCAML
+- si possono fare operazioni:
+    - ^ concatenaione
+    - .[] accesso posizionale ai caratteri
+- sono IMMUTABILI, non possono essere modificate
+```
+let s1 = "test" and s2 = "stringhe" ;;
+val s1 : string = "stringa2" ;;
 
+s1.[2] mi restituisce s
+
+String.length(s) restituisce la lunghezza della stringa
+
+```
 ### LISTE
 #### OPERATORE ::
 - crea una lista da un singolo elemento ed una lista
@@ -228,25 +242,25 @@ print_int tot ;;
 #### SLICING
 
 
-
-
-### STRINGHE
-- sono native di OCAML
-- si possono fare operazioni:
-    - ^ concatenaione
-    - .[] accesso posizionale ai caratteri
-- sono IMMUTABILI, non possono essere modificate
-```
-let s1 = "test" and s2 = "stringhe" ;;
-val s1 : string = "stringa2" ;;
-
-s1.[2] mi restituisce s
-
-String.length(s) restituisce la lunghezza della stringa
-
+### TUPLE
+- liste di dimensione fissa 
+- eterogenee
 ```
 
+let tuple = (5,'char', "This is a string",[1;2;3;4],3.14) ;;
+let pair = (1,"ciao") ;;
+```
+
+#### TUPLE PAIR
+- tuple composte da due elementi
+- premettono di utilizzare due operatori
+
+```
+fst pair ;; mi restituisce il primo elemento del pair
+snd pair ;; mi restituisce il secondo elemento del pair. 
+```
 ### ARRAY
+- strutture che ci permettono di accedere algi elementi direttamente
 - sono mutabili
 - hanno un tipo
 ```
@@ -259,16 +273,15 @@ array.(2) ;;
 posso sostituire elementi tramite operatore freccia
 
 array.(2) <-- 5 ;;
+
+#let a = Array.make 5 3 ;;
+val a : int array = [|3; 3; 3; 3; 3|] 
+
+in questo modo genero un array con 5 elementi uguali a zero
 ```
 
 ### MATRIX
-```
-let a = Array.make 5 0 ;;
-
-in questo modo genero un array su singola riga
-
 è possibile anche concatenare
-```
 
 ### RECORDS
 
@@ -276,6 +289,58 @@ in questo modo genero un array su singola riga
 type person = {name: string; mutable age: int} ;;
 
 val p:person = {name = "Mario"; age=20} ;;
-
 ```
 
+## OCAML MODULES
+- i moduli di ocaml sono dei tipi di dato
+- permettono di esprimere un datatype astratto e concreto
+- utilizzati per realizzare tipi di dato e insiemi di funzioni
+- i moduli sono composti da due parti:
+    1. (opzionale) Interfaccia pubblica che mostra il tipo e le operazioni definite nel modulo (**sig .. .end**)
+    2. l'implementazione del modulo (**struct ... end**)
+
+```
+module A:
+    sig
+        ...
+    end =
+    struct
+        ...
+    end ;;
+```
+- vanno messe in file diversi! Ovviamente per una questione di implementazione
+- bisogna stare attneti alla rappresentazione della mia struttura. Alcuni elementi non devono essere esposti, come la rappresentazione o alcune funzioni di supporto.
+- non si utilizzano interfacce quindi ma spesso classi astratte!
+
+### COMPILAZIONE MODULI
+```
+ocamlc -c file.mli (File di interfaccia)
+ocamlc -c implementation.ml (File di implementazione)
+```
+
+## FUNCTORI
+- funzione tra tipi di dati astratto
+- funzione da struttura a struttura
+- scrivere tipi di dato generalizzati sui tipi di dato
+- servono ad evitare duplicazioni
+
+
+... mancano dei pezzi ... 
+
+## Roba figa con Fun
+### Currying
+-tecnica che permette di trasformare una funzione con diversi argomenti in una catena di funzioni ognuna con un unico argomento
+- partial evaluation
+
+### MAP FILTER REDUCE
+- tre pattern molto importanti
+#### MAP
+#### FILTER
+- filtra dei dati
+- il filtro è una proprietà, sono dei dati
+
+#### REDUCE
+- deve aggregare, quindi ho x elmenti e li trasforma per ottenerne solo uno
+- esempio, dato una lista di interi voglio sommarli tutti e ottenere la somma.
+
+#### VARIABLE ARGS
