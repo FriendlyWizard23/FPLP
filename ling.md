@@ -1,6 +1,7 @@
 # Appunti di Linguaggi di programmazione
 ## Link utili
 - https://v2.ocaml.org/manual/patterns.html
+- https://cs3110.github.io/textbook/chapters/modules/functors.html
 
 ## Informazioni
 - Lunedi:
@@ -291,6 +292,56 @@ type person = {name: string; mutable age: int} ;;
 val p:person = {name = "Mario"; age=20} ;;
 ```
 
+### Aliasing
+- permette di fare un aliasing di un tipo già esistente
+  ```
+  # type int_pair = int*int;;
+  type int_pair = int * int
+  # let a : int_pair = (1,3);;
+  val a : int_pair = (1, 3)
+  # fst a;;
+  - : int = 1
+  ```
+- ogni tipo può essere aliasato
+
+### Varianti
+- un tipo variante, mostra tutte le possibili forme per un valore di quel tipo
+
+  ```
+  # type int_option = Nothing | AnInteger of int ;;
+  type int_option = Nothing | AnInteger of` int
+  # Nothing;;
+  - : int_option = Nothing
+  # AnInteger 7;;
+  - : int_option = AnInteger 7
+
+  ```
+- Ovviamente Nothing e AnInteger sono dei costruttori
+- Posso anche creare dei tipi in modo ricorsivo:
+
+```
+type card = Card of regular | Joker
+  and regular = { suit : card_suit; name : card_name; }
+  and card_suit = Heart | Club | Spade | Diamond
+  and card_name = Ace | King | Queen | Jack | Simple of int;;
+let value = function
+  Joker -> 0
+  | Card {name = Ace} -> 11
+  | Card {name = King} -> 10
+  | Card {name = Queen} -> 9
+  | Card {name = Jack} -> 8
+  | Card {name = Simple n} -> n ;;
+
+```
+
+- questo codice permette di definire 4 tipi:
+    1. card
+    2. regular
+    3. card_suit
+    4. card_name
+
+
+
 ## OCAML MODULES
 - i moduli di ocaml sono dei tipi di dato
 - permettono di esprimere un datatype astratto e concreto
@@ -309,8 +360,91 @@ module A:
     end ;;
 ```
 - vanno messe in file diversi! Ovviamente per una questione di implementazione
-- bisogna stare attneti alla rappresentazione della mia struttura. Alcuni elementi non devono essere esposti, come la rappresentazione o alcune funzioni di supporto.
-- non si utilizzano interfacce quindi ma spesso classi astratte!
+
+#### Esempio
+- di seguito una interfaccia
+```
+#use "char_pqueue.ml" ;;
+module PrioQueue :
+  sig
+    type priority = int
+    type char_queue =
+      Empty
+      | Node of priority * char * char_queue * char_queue
+    exception QueueIsEmpty
+    val empty : char_queue
+    val insert : char_queue -> priority -> char -> char_queue
+    val remove_top : char_queue -> char_queue
+    val extract : char_queue -> priority * char * char_queue
+  end
+
+# let pq = empty ;;
+val pq : PrioQueue.char_queue = Empty
+
+# let pq = insert pq 0 'a' ;;
+val pq : PrioQueue.char_queue = Node (0, 'a', Empty, Empty)
+
+# let pq = insert (insert pq 3 'c') (-7) 'w';;
+val pq : PrioQueue.char_queue =
+  Node (-7, 'w', Node (0, 'a', Empty, Empty), Node (3, 'c', Empty, Empty))
+
+# let pq = extract pq;;
+val pq : PrioQueue.priority * char * PrioQueue.char_queue =
+  (-7, 'w', Node (0, 'a', Empty, Node (3, 'c', Empty, Empty)))
+
+```
+
+- implementazione:
+
+```
+module PrioQueue =
+  struct
+    type priority = int
+    type char_queue = Empty | Node of priority * char * char_queue * char_queue
+    exception QueueIsEmpty
+
+    let empty = Empty
+
+    let rec insert queue prio elt =
+      match queue with
+      | Empty -> Node(prio, elt, Empty, Empty)
+      | Node(p, e, left, right) ->
+        if prio <= p
+        then Node(prio, elt, insert right p e, left)
+        else Node(p, e, insert right prio elt, left)
+
+    let rec remove_top = function
+      | Empty -> raise QueueIsEmpty
+      | Node(prio, elt, left, Empty) -> left
+      | Node(prio, elt, Empty, right) -> right
+      | Node(prio, elt, (Node(lprio, lelt, _, _) as left),
+                      (Node(rprio, relt, _, _) as right)) ->
+        if lprio <= rprio
+        then Node(lprio, lelt, remove_top left, right)
+        else Node(rprio, relt, left, remove_top right)
+
+    let extract = function
+      | Empty -> raise QueueIsEmpty
+      | Node(prio, elt, _, _) as queue -> (prio, elt, remove_top queue)
+  end;
+```
+
+- bisogna stare attenti alla struttura del modulo: alcuni elementi non devono essere esposti, come la rappresentazione o alcune funzioni di supporto.
+  - Del tipo, char queue non mi interessa che da fuori si sappia come venga implementata.
+- non si utilizzano interfacce quindi ma spesso classi astratte:
+
+```
+module type CharPQueueAbs =
+  sig
+    type priority = int  (* still concrete *)
+    type char_queue      (* now abstract *)
+    val empty : char_queue
+    val insert : char_queue -> int -> char -> char_queue
+    val extract : char_queue -> int * char * char_queue
+    exception QueueIsEmpty
+  end;;
+```
+
 
 ### COMPILAZIONE MODULI
 ```
@@ -318,7 +452,12 @@ ocamlc -c file.mli (File di interfaccia)
 ocamlc -c implementation.ml (File di implementazione)
 ```
 
-## FUNCTORI
+## FUNCTORS
+> Functors are «functions» from structures to structures
+- permettono di nascondere i dettagli implementativi, che possono cambiare senza influenzare chi li utilizza.
+- Utili per non ripeter codice 
+- struttura TYPE safe
+- 
 - funzione tra tipi di dati astratto
 - funzione da struttura a struttura
 - scrivere tipi di dato generalizzati sui tipi di dato
