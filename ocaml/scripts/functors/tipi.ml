@@ -3,6 +3,10 @@ type card = Card of regular | Joker
   	and card_suit = Heart | Club | Spade | Diamond
   	and card_name = Ace | King | Queen | Jack | Simple of int;;
 
+let suits = [Heart;Club;Spade;Diamond] ;;
+let names = [Ace;King;Queen;Jack;Simple 10; Simple 9; Simple 8; Simple 7; Simple 6; Simple 5; Simple 4; Simple 3; Simple 2; Simple 1] ;;
+
+let generateDeck suits names =
 
 let value = function
 	Joker -> 0
@@ -15,9 +19,4 @@ let value = function
 
 let jack:card = Card {suit = Heart; name = Jack} ;;
 let cardTest:card = Joker ;;
-let jokerVal = value cardTest ;;
-let jackVal = value jack ;;
-print_int jokerVal ;;
-print_string "\n" ;;
-print_int jackVal ;;
-print_string "\n" ;;
+let list=[jack;cardTest;] ;;

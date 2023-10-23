@@ -1,0 +1,6 @@
+Find the K'th element of a list. (easy)
+
+# List.nth ["a"; "b"; "c"; "d"; "e"] 2;;
+- : string = "c"
+# List.nth ["a"] 2;;
+Exception: Failure "nth".
