@@ -2,6 +2,7 @@
 ## Link utili
 - https://v2.ocaml.org/manual/patterns.html
 - https://cs3110.github.io/textbook/chapters/modules/functors.html
+- https://courses.cs.cornell.edu/cs3110/2021sp/textbook/modules/signatures.html
 
 ## Informazioni
 - Lunedi:
@@ -319,20 +320,35 @@ val p:person = {name = "Mario"; age=20} ;;
 - Ovviamente Nothing e AnInteger sono dei costruttori
 - Posso anche creare dei tipi in modo ricorsivo:
 
-```
+```                
 type card = Card of regular | Joker
-  and regular = { suit : card_suit; name : card_name; }
-  and card_suit = Heart | Club | Spade | Diamond
-  and card_name = Ace | King | Queen | Jack | Simple of int;;
+        and regular = { suit : card_suit; name : card_name; }
+        and card_suit = Heart | Club | Spade | Diamond
+        and card_name = Ace | King | Queen | Jack | Simple of int;;
+
+
 let value = function
-  Joker -> 0
-  | Card {name = Ace} -> 11
-  | Card {name = King} -> 10
-  | Card {name = Queen} -> 9
-  | Card {name = Jack} -> 8
-  | Card {name = Simple n} -> n ;;
+        Joker -> 0
+        | Card {name = Ace} -> 11
+        | Card {name = King} -> 10
+        | Card {name = Queen} -> 9
+        | Card {name = Jack} -> 8
+        | Card {name = Simple n} -> n ;;
+
+(*TESTING*)
+
+let jack:card = Card {suit = Heart; name = Jack} ;;
+let cardTest:card = Joker ;;
+let jokerVal = value cardTest ;;
+let jackVal = value jack ;;
+
+print_int jokerVal ;;
+print_string "\n" ;;
+print_int jackVal ;;
+print_string "\n" ;;
 
 ```
+
 
 - questo codice permette di definire 4 tipi:
     1. card
@@ -340,6 +356,12 @@ let value = function
     3. card_suit
     4. card_name
 
+### Utilizzare i tipi
+per poter utilizzare un tipo bisogna fare
+
+```
+let nome:tipo = costruttore ;;
+```
 
 
 ## OCAML MODULES
@@ -362,91 +384,55 @@ module A:
 - vanno messe in file diversi! Ovviamente per una questione di implementazione
 
 #### Esempio
-- di seguito una interfaccia
-```
-#use "char_pqueue.ml" ;;
-module PrioQueue :
-  sig
-    type priority = int
-    type char_queue =
-      Empty
-      | Node of priority * char * char_queue * char_queue
-    exception QueueIsEmpty
-    val empty : char_queue
-    val insert : char_queue -> priority -> char -> char_queue
-    val remove_top : char_queue -> char_queue
-    val extract : char_queue -> priority * char * char_queue
-  end
-
-# let pq = empty ;;
-val pq : PrioQueue.char_queue = Empty
-
-# let pq = insert pq 0 'a' ;;
-val pq : PrioQueue.char_queue = Node (0, 'a', Empty, Empty)
-
-# let pq = insert (insert pq 3 'c') (-7) 'w';;
-val pq : PrioQueue.char_queue =
-  Node (-7, 'w', Node (0, 'a', Empty, Empty), Node (3, 'c', Empty, Empty))
-
-# let pq = extract pq;;
-val pq : PrioQueue.priority * char * PrioQueue.char_queue =
-  (-7, 'w', Node (0, 'a', Empty, Node (3, 'c', Empty, Empty)))
 
 ```
+module type BlackjackDeck = sig
+        type card = Card of regular | Joker
+        and regular = { suit : card_suit; name : card_name }
+        and card_suit = Heart | Club | Spade | Diamond
+        and card_name = Ace | King | Queen | Jack | Simple of int
 
-- implementazione:
+        val value : card -> int
+end
 
-```
-module PrioQueue =
-  struct
-    type priority = int
-    type char_queue = Empty | Node of priority * char * char_queue * char_queue
-    exception QueueIsEmpty
+module BJD : BlackjackDeck = struct
+        type card = Card of regular | Joker
+        and regular = { suit : card_suit; name : card_name }
+        and card_suit = Heart | Club | Spade | Diamond
+        and card_name = Ace | King | Queen | Jack | Simple of int
 
-    let empty = Empty
+        let value = function
+        | Joker -> 0
+        | Card { name = Ace } -> 11
+        | Card { name = King } -> 10
+        | Card { name = Queen } -> 9
+        | Card { name = Jack } -> 8
+        | Card { name = Simple n } -> n
+end
 
-    let rec insert queue prio elt =
-      match queue with
-      | Empty -> Node(prio, elt, Empty, Empty)
-      | Node(p, e, left, right) ->
-        if prio <= p
-        then Node(prio, elt, insert right p e, left)
-        else Node(p, e, insert right prio elt, left)
+let () =
+        let open BJD in
+        let joker = Joker in
+        let qha = Card { suit = Heart; name = Queen } in
+        let _ = print_int (value joker) in
+        let _ = print_newline () in
+        let _ = print_int (value qha) in
+        print_newline ();
 
-    let rec remove_top = function
-      | Empty -> raise QueueIsEmpty
-      | Node(prio, elt, left, Empty) -> left
-      | Node(prio, elt, Empty, right) -> right
-      | Node(prio, elt, (Node(lprio, lelt, _, _) as left),
-                      (Node(rprio, relt, _, _) as right)) ->
-        if lprio <= rprio
-        then Node(lprio, lelt, remove_top left, right)
-        else Node(rprio, relt, left, remove_top right)
-
-    let extract = function
-      | Empty -> raise QueueIsEmpty
-      | Node(prio, elt, _, _) as queue -> (prio, elt, remove_top queue)
-  end;
 ```
 
 - bisogna stare attenti alla struttura del modulo: alcuni elementi non devono essere esposti, come la rappresentazione o alcune funzioni di supporto.
-  - Del tipo, char queue non mi interessa che da fuori si sappia come venga implementata.
-- non si utilizzano interfacce quindi ma spesso classi astratte:
 
-```
-module type CharPQueueAbs =
-  sig
-    type priority = int  (* still concrete *)
-    type char_queue      (* now abstract *)
-    val empty : char_queue
-    val insert : char_queue -> int -> char -> char_queue
-    val extract : char_queue -> int * char * char_queue
-    exception QueueIsEmpty
-  end;;
-```
 
 
 ### COMPILAZIONE MODULI
+- Mettiamo di avere due file
+  1. interface.mli
+  2. file.ml
+- per compilare devo inserire entrambi i file nel comando:
+```
+ocamlc -o output interface.mli file.ml
+```
 ```
 ocamlc -c file.mli (File di interfaccia)
 ocamlc -c implementation.ml (File di implementazione)
