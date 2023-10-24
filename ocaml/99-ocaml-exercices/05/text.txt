@@ -1,0 +1,3 @@
+Reverse a list. (easy)#
+# rev ["a"; "b"; "c"];;
+- : string list = ["c"; "b"; "a"]

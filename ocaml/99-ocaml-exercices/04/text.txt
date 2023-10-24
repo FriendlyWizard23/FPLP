@@ -1,0 +1,5 @@
+Find the number of elements of a list. (easy)
+# length ["a"; "b"; "c"];;
+- : int = 3
+# length [];;
+- : int = 0
