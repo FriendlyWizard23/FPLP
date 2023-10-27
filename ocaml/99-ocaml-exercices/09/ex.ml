@@ -1,0 +1,8 @@
+let agglomerate list = 
+	let rec agglomerate wastelist aggled last = function
+	| [] -> aggled
+	| h::tl when h=last -> agglomerate (h::wastelist) aggled h tl 
+	| h::tl when h<>last -> agglomerate [h] (wastelist::aggled) h tl
+	| _ -> raise (Failure "Error while parsing lists")
+	in agglomerate [List.hd list] [] (List.hd list) 
+
