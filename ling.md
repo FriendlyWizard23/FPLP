@@ -1,8 +1,14 @@
 # Appunti di Linguaggi di programmazione
 ## Link utili
+### OCAML
 - https://v2.ocaml.org/manual/patterns.html
 - https://cs3110.github.io/textbook/chapters/modules/functors.html
 - https://courses.cs.cornell.edu/cs3110/2021sp/textbook/modules/signatures.html
+  
+### ERLANG
+- https://www.tutorialspoint.com/erlang/
+- https://www.erlang.org/doc/reference_manual/data_types#tuple
+- https://erlang.org/download/erlang-book-part1.pdf
 
 ## Informazioni
 - Lunedi:
@@ -468,4 +474,231 @@ ocamlc -c implementation.ml (File di implementazione)
 - deve aggregare, quindi ho x elmenti e li trasforma per ottenerne solo uno
 - esempio, dato una lista di interi voglio sommarli tutti e ottenere la somma.
 
-#### VARIABLE ARGS
+
+# LINGUAGGIO 2: ERLANG
+## introduzione
+- Erlang is a functional programming language and runtime environment. 
+- It was built in such a way that it had inherent support for concurrency, distribution and fault tolerance. Erlang was originally developed to be used in several large telecommunication systems.
+- But it has now slowly made its foray into diverse sectors like ecommerce, computer telephony and banking sectors as well.
+
+## Basic Syntax
+```
+% hello world program
+-module(helloworld). 
+-export([start/0]). 
+
+start() -> 
+   io:fwrite("Hello, world!\n").
+
+```
+- questo codice è il classico hello world, ma introduce già alcuni elementi del linguaggio:
+  - **%** permette di  aggiungere commenti al programma
+  - **module** permette di definire il namespace delle funzioni che definiamo nel programma
+  - **export** ci permette di definire che possiamo utilizzare tutte le funzoni presenti. In questo caso definiamo start e per utilizzarla dobbiamo per forza utilizzare export. lo /0 ci dice che la funzione non ha alcun parametro
+  - **io:fwrite** serve per output
+
+### Running ERLANG code
+- per poter runnare il codice ERLANG dobbiamo
+  1. avviare la shell tramite comando **erl**
+  2. compilare il sorgente: **c(file).** file non deve avere estensione!
+  3. per chiamare una funzione dopo averlo compilato: **modulo:funzione(params).**
+## Tipi di dato:
+### NUMERO
+- Ci sono due tipi di numeri: Interi e float
+```
+-module(helloworld).
+-export([start/0]).
+
+start() ->
+   io:fwrite("~w",[1+1]).
+```
+- posso accedere al valore del singolo carattere tramite <code>$char</code>
+
+- possibile anche memorizzare un valore in una determinata base tramite <code>base#value.</code>
+
+- per un valore float base che lo dichiaro con la dot notation, le operazioni sono normali a differenza di ocaml che richiedevano un punto dopo l'operatore
+
+```
+1> 42.
+42
+
+2> -1_234_567_890.
+-1234567890
+
+3> $A.
+65
+
+4> $\n.
+10
+
+5> 2#101.
+5
+
+6> 16#1f.
+31
+
+7> 16#4865_316F_774F_6C64.
+5216630098191412324
+
+8> 2.3.
+2.3
+
+9> 2.3e3.
+2.3e3
+
+10> 2.3e-3.
+0.0023
+
+11> 1_234.333_333
+1234.333333
+
+```
+- When working with floats you may not see what you expect when printing or doing arithmetic operations. This is because floats are represented by a fixed number of bits in a base-2 system while printed floats are represented with a base-10 system. Erlang uses 64-bit floats. Here are examples of this phenomenon:
+
+```
+> 0.1+0.2.
+0.30000000000000004
+```
+
+### ATOM
+- una costante literal con nome maiuscolo. Deve essere chiuso tra singoli apici (') se contiene lettere minuscole o altri caratteri che non siano alfanumerici
+- E’ una label , non è associato a un valore numerico , come un enum , sono stringhe senza apici che iniziano con la lettera minuscola.
+
+- Gli atomi serviranno per la costruzione di messaggi , fungeranno da etichetta su cui verrà fatto pattern matching.
+```
+hello
+phone_number
+'Monday'
+'phone number'
+```
+
+
+### BOOLEAN
+- poco da dire, true o false
+
+
+### BIT STRING
+- dati senza tipo
+- Bit strings that consist of a number of bits that are evenly divisible by eight, are called binaries
+  
+```
+1> <<10,20>>.
+<<10,20>>
+
+2> <<"ABC">>.
+<<"ABC">>
+
+1> <<1:1,0:1>>.
+<<2:2>>
+```
+### TUPLE
+
+- sono composte da elementi
+- a quanto pare sono eterogenee e quindi posso fare una roba del genere
+
+```
+1> P = {adam,24,{july,29}}.
+{adam,24,{july,29}}
+
+2> element(1,P).
+adam
+
+3> element(3,P).
+{july,29}
+
+4> P2 = setelement(2,P,25).
+{adam,25,{july,29}}
+
+5> tuple_size(P).
+3
+
+6> tuple_size({}).
+0
+```
+### MAP
+- permette di mappare roba
+- funziona tramite chiavi e valori, molto utile
+
+```
+-module(helloworld). 
+-export([start/0]). 
+
+start() -> 
+   M1 = #{name=>john,age=>25}, 
+   io:fwrite("~w",[map_size(M1)]).
+```
+- Esempi di utilizzo:
+
+```
+1> M1 = #{name=>adam,age=>24,date=>{july,29}}.
+#{age => 24,date => {july,29},name => adam}
+
+2> maps:get(name,M1).
+adam
+
+3> maps:get(date,M1).
+{july,29}
+
+4> M2 = maps:update(age,25,M1).
+#{age => 25,date => {july,29},name => adam}
+
+5> map_size(M).
+3
+
+6> map_size(#{}).
+0
+```
+
+## Elementi fondamentali
+### Binding e Pattern Matching
+- non esiste assegnamento ma solo etichette
+- Variables are bound to values through the pattern matching mechanism.
+- In a pattern matching, a left-hand side pattern is matched against a right-hand side term. If the matching succeeds, any unbound variables in the pattern become bound.
+```
+1> [B|L] = [a,b,c] %il primo elemento è abbinato a B , il resto a L
+[a,b,c]
+
+2> {A,B,L}
+{1,a,[b,c]}
+
+3> {X,X} = {B,B} %esiste un match e quindi X diventa a
+{a,a}
+
+4> {Y,Y} = {X,b} %non funziona peche X è associato ad A , e non esiste un altro X che vale b
+  
+```
+- altro esempio
+```
+1> X.
+** 1:1: variable 'X' is unbound **
+
+2> X = 2.
+2
+
+3> X + 1.
+3
+
+4> {X, Y} = {1, 2}.
+** exception error: no match of right hand side value {1,2}
+
+5> {X, Y} = {2, 3}.
+{2,3}
+
+6> Y.
+3
+
+```
+### Guardie
+- le guardie in erlang sono stronze: sono accettate solo alcune funzioni, le BIF.
+- funzioni custom non vanno bene e ci restitusice un errore
+
+### operazioni matematiche
+#### Modulo
+- per fare il modulo si utilizza il REM ( reminder ):
+```
+N rem C
+```
+#### Divisioni
+- le divisioni possono essere
+    1. Float -> utilizzando operatore slash <code>/</code>
+    2. Int -> utilizzando operatore <code>div</div>
