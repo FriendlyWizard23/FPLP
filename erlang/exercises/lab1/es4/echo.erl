@@ -11,13 +11,14 @@ rpc(Message) ->
 
 loop() ->
 	receive
-	{{my_server,stop}}-> 
+	{stop}-> 
 		io:format("[ECHO]> stopped"),
 		exit(stopped);
-	{Message} -> 
+	{{msg,Message}} -> 
 		io:format("[ECHO]> ~p~n",[Message]),
 		loop()
 	end.
 
-print(Message) -> rpc(Message), ok.
-stop() -> rpc({my_server,stop}), ok.
+print(Message) -> rpc({msg,Message}), ok.
+stop() -> rpc(stop), ok.
+
