@@ -4,6 +4,8 @@
 - https://v2.ocaml.org/manual/patterns.html
 - https://cs3110.github.io/textbook/chapters/modules/functors.html
 - https://courses.cs.cornell.edu/cs3110/2021sp/textbook/modules/signatures.html
+- https://www.youtube.com/playlist?list=PLre5AT9JnKShBOPeuiD9b-I4XROIJhkIU
+- https://ocaml.org/exercises
   
 ### ERLANG
 - https://www.tutorialspoint.com/erlang/
