@@ -704,3 +704,10 @@ N rem C
 - le divisioni possono essere
     1. Float -> utilizzando operatore slash <code>/</code>
     2. Int -> utilizzando operatore <code>div</div>
+
+## ERROR PROPAGATION
+
+- fg
+
+
+# SCALA
