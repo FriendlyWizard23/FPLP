@@ -2,7 +2,9 @@
 -export([start/2, loop_manager/1]).
 
 start(Node,Name) ->
-	spawn_link(Node,fun()->loop_manager(Name)end).
+	Pid=spawn(Node,fun()->loop_manager(Name)end),
+	io:format("GENERATED PID: ~p\n",[Pid]),
+	link(Pid).
 
 loop_manager(ServiceName) ->
 	group_leader(whereis(user),self()),
@@ -12,10 +14,11 @@ loop_manager(ServiceName) ->
 
 loop(ServiceName) ->
 	io:format("~p is listening...\n",[ServiceName]),
+	Info = erlang:process_info(self(), links),
+	io:format("Il processo ~p è linkato a ~p~n\n", [self(), Info]),
 	receive
-	{_From,{die}} -> exit(normal);
-	{From,{List}} -> sendListValues(lists:reverse(List),ServiceName,global:whereis_name(server),From),loop(ServiceName);
-	{'EXIT',Pid,Why} -> io:format("Dying now...\n"), exit(Why)
+	{_From,{stop}} -> io:format("Dying now...\n");
+	{From,{List}} -> sendListValues(lists:reverse(List),ServiceName,global:whereis_name(server),From),loop(ServiceName)
 	end.
 
 mm_rpc(To,Value,ServiceName,From) ->

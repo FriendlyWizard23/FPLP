@@ -2,7 +2,8 @@
 -export([start/1, loop_manager/0]).
 
 start(Node) ->
-	spawn_link(Node,fun()->loop_manager()end).
+	Pid=spawn(Node,fun()->loop_manager()end),
+	link(Pid).
 
 loop_manager() ->
 	group_leader(whereis(user),self()),
@@ -11,7 +12,7 @@ loop_manager() ->
 	loop([],[],false,false,unknown).	
 	
 loop(List1,List2,true,true,ComingFrom)->
-	io:format("Server has finished: ~p\n",[[List1|List2]]), 
+	io:format("Server has finished: ~p\n",[List2++List1]), 
 	ComingFrom!{List2++List1},
 	loop([],[],false,false,unknown);
 
@@ -30,9 +31,8 @@ loop(List1,List2,Finished1,Finished2,_ComingFrom) ->
 	{From,{mm2,Value}} -> 
 		io:format("[Server]> Received ~p from mm2\n",[Value]),
 		loop(List1,List2++[Value],Finished1,Finished2,From);
-	{'EXIT',Pid,Why} ->
-		io:format("[Server]> It was an honour, dying now\n"),
-		exit(Why);
+	{_From,{stop}} ->
+		io:format("[Server]> It was an honour, dying now\n");
 	Any -> 
 		io:format("[Server]> Received unknown string: ~p ",[Any]),
 		loop(List1,List2,Finished1,Finished2,unknown)
