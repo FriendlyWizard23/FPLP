@@ -15,6 +15,7 @@ init(N)->
 loop(N,FirstSieve,Client)->
 	io:format("Server ~p waiting...~n",[self()]),
 	receive
+	{kill} -> exit(kill);
 	{From,new,Num} -> 
 		io:format("You asked for ~p~n",[Num]), 
 		FirstSieve!{new,Num},

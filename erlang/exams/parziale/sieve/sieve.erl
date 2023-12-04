@@ -73,12 +73,15 @@ loop(SeqN,First,Next,Identifier,Spawner,LoopedN) ->
 % LOOP FOR THE OTHER SIEVES THAT ARE NOT FIRST
 loop(SeqN,First,Next,Identifier)->
 	receive
-	
+	{pass,SeqN}->	
+		io:format("[Sieve ~p]> Passing ~p~n",[Identifier,SeqN]), 
+		Next!{pass,SeqN},
+		loop(SeqN,First,Next,Identifier);
 	%% FILTERED
 	{pass,N} when (N rem Identifier == 0) -> 
 		io:format("[Sieve ~p]> Filtered ~p Sending to ~p~n",[Identifier,N,First]),
 		First!{res,false},
-		loop(SeqN,First,Next,Identifier);
+		loop(N,First,Next,Identifier);
 	
 	%% MUST PASS
 	{pass,N} -> 
