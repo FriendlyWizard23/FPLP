@@ -1,5 +1,5 @@
 -module(client).
--export([start/0,is_palindroma/1]).
+-export([start/0, is_palindroma/1]).
 
 start()->
 	group_leader(whereis(user),self()),
@@ -19,8 +19,11 @@ is_palindroma(String)->
 	MM1!{self(),Server,{newstring,First}},
 	MM2!{self(),Server,{newstring,lists:reverse(Second)}},
 	receive
-		{true} -> io:format("The String ~p is palindrome~n",[String]);
-		{false} -> io:format("The String ~p is not palindrome~n",[String])
+		_ -> 
+			receive
+			{true} -> io:format("The String ~p is palindrome~n",[String]);
+			{false} -> io:format("The String ~p is NOT palindrome~n",[String])
+			end
 	end.
 
 splitter(String)->

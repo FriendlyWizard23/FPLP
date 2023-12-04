@@ -18,12 +18,7 @@ loop(MM1PID,MM2PID,mm1,CounterMM1,CounterMM2,PrevElement,IsPalindroma)->
 		loop(From,MM2PID,mm2,CounterMM1+1,CounterMM2,Char,IsPalindroma);
 	{From,{CounterMM1,mm1,finished}} ->
 		io:format("[Server]> Received finish signal from mm1~n"),
-		loop(From,MM2PID,mm2,CounterMM1,CounterMM2,PrevElement,IsPalindroma);
-	Any->
-		%io:format("[Server]> Server on mm1 received weird stuff..~p CounterMM1 is~p~n",[Any,CounterMM1]),
-		self()!Any,
-		%timer:sleep(1000),
-		loop(MM1PID,MM2PID,mm1,CounterMM1,CounterMM2,PrevElement,IsPalindroma)		
+		loop(From,MM2PID,mm2,CounterMM1,CounterMM2,PrevElement,IsPalindroma)
 	end;
 
 loop(MM1PID,MM2PID,mm2,CounterMM1,CounterMM2,PrevElement,IsPalindroma)->
@@ -39,13 +34,7 @@ loop(MM1PID,MM2PID,mm2,CounterMM1,CounterMM2,PrevElement,IsPalindroma)->
 		loop(MM1PID,From,mm1,CounterMM1,CounterMM2+1,Char,false); 
 	{From,{CounterMM2,mm2,Char}} ->
 		io:format("[Server]> Received ~p from mm2 which is equal to ~p and CounterMM2 is~p~n",[Char,PrevElement,CounterMM2]),
-		loop(MM1PID,From,mm1,CounterMM1,CounterMM2+1,Char,IsPalindroma);
-	Any->
-		%io:format("[Server]> Server on mm2 received weird stuff ~p..CounterMM2 is ~p~n",[Any,CounterMM2]),	
-		self()!Any,
-		%timer:sleep(1000),
-		loop(MM1PID,MM2PID,mm2,CounterMM1,CounterMM2,PrevElement,IsPalindroma)
-			
+		loop(MM1PID,From,mm1,CounterMM1,CounterMM2+1,Char,IsPalindroma)			
 		
 	end.
 
