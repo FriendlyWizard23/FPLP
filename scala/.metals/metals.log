@@ -1,0 +1,21 @@
+2023.12.18 15:51:45 INFO  Started: Metals version 1.2.0 in folders '/home/dread/UNI/FPLP/scala' for client VSCodium 1.85.0.[0m
+2023.12.18 15:51:46 WARN  Build server is not auto-connectable.[0m
+2023.12.18 15:51:46 WARN  no build tool detected in workspace '/home/dread/UNI/FPLP/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2023.12.18 15:51:46 WARN  no build target for: /home/dread/UNI/FPLP/scala/exercices/lab01/01/es1.scala[0m
+Dec 18, 2023 3:51:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2023.12.18 15:51:51 INFO  no build target found for /home/dread/UNI/FPLP/scala/exercices/lab01/01/es1.scala. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2023.12.18 15:51:53 INFO  time: code lens generation in 3.76s[0m
+2023.12.18 15:52:52 WARN  no build target for: /home/dread/UNI/FPLP/scala/exercices/lab01/01/es1.scala[0m
+Dec 18, 2023 4:10:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 325
+2023.12.18 16:11:09 WARN  no build target for: /home/dread/UNI/FPLP/scala/exercices/lab01/01/es1.scala[0m
+2023.12.18 16:11:20 WARN  no build target for: /home/dread/UNI/FPLP/scala/exercices/lab01/01/es1.scala[0m
+2023.12.18 16:34:17 WARN  no build target for: /home/dread/UNI/FPLP/scala/exercices/lab01/01/es1.scala[0m
+2023.12.18 16:38:20 WARN  no build target for: /home/dread/UNI/FPLP/scala/exercices/lab01/01/es1.scala[0m
+2023.12.18 16:54:49 WARN  no build target for: /home/dread/UNI/FPLP/scala/exercices/lab01/01/es1.scala[0m
+2023.12.18 17:09:27 WARN  no build target for: /home/dread/UNI/FPLP/scala/exercices/lab01/01/es1.scala[0m
+2023.12.18 17:10:02 WARN  no build target for: /home/dread/UNI/FPLP/scala/exercices/lab01/01/es1.scala[0m
+2023.12.19 14:39:06 INFO  Shutting down server[0m
+2023.12.19 14:39:06 INFO  shutting down Metals[0m
+2023.12.19 14:39:06 INFO  Exiting server[0m
