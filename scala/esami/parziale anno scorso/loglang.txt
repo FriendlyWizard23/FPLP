@@ -1,0 +1,11 @@
+      task TaskOne {
+        remove "application.debug.old"
+        rename "application.debug" "application.debug.old"
+        merge "file1.log" "file2.txt" "file3.log"
+        backup "file1.txt" "backup/file1.txt"
+      }
+      task TaskTwo {
+        backup "file2.txt" "backup/file2.txt"
+        rename "file3.txt" "newfile3.txt"
+        remove "file4.txt"
+      }

@@ -40,8 +40,8 @@ class LogLang extends JavaTokenParsers{
     def mergeFiles(s1:String,s2:String,t:String):Boolean = {
          Try((
             () => {
-                new FileOutputStream(new File(t)).getChannel() transferFrom(
-                new FileInputStream(new File(s1)) getChannel, 0, Long.MaxValue); 
+                new FileOutputStream(new File(t)).getChannel()transferFrom(
+                new FileInputStream(new File(s1)).getChannel, 0, Long.MaxValue); 
                 new FileOutputStream(new File(t), true).getChannel() transferFrom(
                 new FileInputStream(new File(s2)) getChannel, 0, Long.MaxValue);
                 true
@@ -72,7 +72,7 @@ object LogLangTester extends App {
 
   // Parse and print the result
   parser.parseAll(parser.alltasks, input) match {
-    case parser.Success(result, _) => result.foreach{
+    case parser.Success(result, _) => println(result);result.foreach{
         _ match {
             case parser.~(sl,l) => {
                 println("Task " + sl)

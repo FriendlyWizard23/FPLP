@@ -412,3 +412,2135 @@ Exception in thread "pool-3-thread-1" java.lang.InterruptedException
 2023.12.30 20:48:09 INFO  Shutting down server
 2023.12.30 20:48:09 INFO  shutting down Metals
 2023.12.30 20:48:09 INFO  Exiting server
+2023.12.31 16:34:46 INFO  Started: Metals version 1.2.0 in folders '/home/dread/UNI/FPLP' for client Visual Studio Code 1.85.1.
+2023.12.31 16:34:47 WARN  Build server is not auto-connectable.
+2023.12.31 16:34:47 WARN  no build tool detected in workspace '/home/dread/UNI/FPLP'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.12.31 16:34:47 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2023.12.31 16:34:48 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/giugno2016/arnoldC.scala
+2023.12.31 16:34:50 INFO  no build target found for /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.12.31 16:34:51 WARN  Could not find semantic tokens for: file:///home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2023.12.31 16:34:52 INFO  time: code lens generation in 4.91s
+2023.12.31 16:34:52 INFO  time: code lens generation in 3.18s
+2023.12.31 16:34:53 WARN  Could not find semantic tokens for: file:///home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2023.12.31 16:38:17 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2023.12.31 16:38:34 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2023.12.31 16:38:47 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2023.12.31 16:41:04 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2023.12.31 16:41:24 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2023.12.31 16:42:26 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2023.12.31 16:48:24 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2023.12.31 16:52:58 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/giugno2016/arnoldC.scala
+2023.12.31 16:55:08 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2023.12.31 16:55:08 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2023.12.31 16:55:08 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2023.12.31 17:00:07 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2023.12.31 17:00:37 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2023.12.31 17:03:27 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2023.12.31 17:12:08 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2023.12.31 17:13:55 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2023.12.31 17:14:10 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2023.12.31 17:14:41 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2023.12.31 17:15:38 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2023.12.31 17:16:36 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2023.12.31 17:16:56 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2023.12.31 17:17:00 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2023.12.31 17:20:32 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2023.12.31 17:20:50 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2023.12.31 17:23:33 INFO  Shutting down server
+2023.12.31 17:23:33 INFO  shutting down Metals
+2023.12.31 17:23:33 INFO  Exiting server
+2024.01.02 16:15:07 INFO  Started: Metals version 1.2.0 in folders '/home/dread/UNI/FPLP' for client Visual Studio Code 1.85.1.
+2024.01.02 16:15:08 WARN  Build server is not auto-connectable.
+2024.01.02 16:15:08 WARN  no build tool detected in workspace '/home/dread/UNI/FPLP'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.01.02 16:15:08 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2024.01.02 16:15:11 INFO  no build target found for /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2024.01.02 16:15:13 INFO  time: code lens generation in 1.39s
+2024.01.02 16:15:41 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2024.01.02 16:16:27 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2024.01.02 16:20:42 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/giugno2016/arnoldC.scala
+2024.01.02 19:11:31 INFO  Shutting down server
+2024.01.02 19:11:31 INFO  shutting down Metals
+2024.01.02 19:11:31 INFO  Exiting server
+2024.01.03 14:18:22 INFO  Started: Metals version 1.2.0 in folders '/home/dread/UNI/FPLP' for client Visual Studio Code 1.85.1.
+2024.01.03 14:18:23 WARN  Build server is not auto-connectable.
+2024.01.03 14:18:23 WARN  no build tool detected in workspace '/home/dread/UNI/FPLP'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.01.03 14:18:23 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2024.01.03 14:18:27 INFO  no build target found for /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2024.01.03 14:18:28 INFO  time: code lens generation in 4.93s
+2024.01.03 14:33:59 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 14:33:59 WARN  Could not find semantic tokens for: file:///home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 14:34:00 WARN  Could not find semantic tokens for: file:///home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 14:36:23 WARN  Could not find semantic tokens for: file:///home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 14:36:24 WARN  Could not find semantic tokens for: file:///home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+Jan 03, 2024 2:36:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 26
+Jan 03, 2024 2:36:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 27
+2024.01.03 14:36:45 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 14:43:43 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 14:47:35 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+Exception in thread "pool-3-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024.01.03 14:52:46 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 14:53:00 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 14:53:33 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:06:17 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:06:56 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+scala.meta.tokenizers.TokenizeException: <input>:5: error: unclosed string literal
+        def expression: Parser[Int] = "rep1("+") ^^ ()
+                                              ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.03 15:08:33 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:09:13 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:09:20 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:09:43 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:10:08 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:10:43 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:12:06 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:12:31 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:12:38 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:13:00 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:13:27 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:13:29 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:13:30 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:13:30 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:15:25 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:15:53 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:16:12 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:16:21 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:17:23 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:18:45 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:19:09 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:19:19 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:20:22 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:20:44 WARN  Using indexes to guess the definition of stack
+2024.01.03 15:20:44 WARN  Using indexes to guess the definition of stack
+2024.01.03 15:20:46 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:23:26 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:24:49 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:25:11 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:25:38 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:25:51 WARN  Using indexes to guess the definition of program
+2024.01.03 15:25:52 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:26:16 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+Jan 03, 2024 3:30:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-03/r_compiler-error_15-30-30-714.md
+2024.01.03 15:30:34 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:30:54 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:31:17 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+Jan 03, 2024 3:33:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-03/r_compiler-error_15-33-23-260.md
+Jan 03, 2024 3:33:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-03/r_compiler-error_15-33-25-098.md
+2024.01.03 15:33:31 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:34:10 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:34:21 WARN  Using indexes to guess the definition of program
+2024.01.03 15:34:22 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:34:53 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:35:05 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:35:22 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:36:12 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+scala.meta.tokenizers.TokenizeException: <input>:9: error: unclosed string literal
+        def eol="\"
+                ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.03 15:36:59 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:37:27 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:37:37 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:38:21 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:39:12 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:39:19 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:39:42 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:40:06 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:40:13 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:40:18 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:40:28 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:40:55 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:41:06 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:41:30 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:41:53 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:41:53 WARN  Using indexes to guess the definition of program
+2024.01.03 15:42:40 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:42:42 WARN  Using indexes to guess the definition of stack
+2024.01.03 15:42:46 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:43:23 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:43:31 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:43:40 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:44:01 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:44:42 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:44:47 WARN  Using indexes to guess the definition of eol
+2024.01.03 15:44:47 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:45:00 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:46:10 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:46:17 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 15:48:09 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+Jan 03, 2024 3:48:11 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 03, 2024 3:48:12 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 03, 2024 3:48:12 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 03, 2024 3:48:13 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 03, 2024 3:48:14 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 03, 2024 3:48:15 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.01.03 16:00:53 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+Jan 03, 2024 4:09:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4774
+2024.01.03 16:09:31 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:10:24 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:10:49 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:11:31 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:12:16 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:12:24 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+scala.meta.tokenizers.TokenizeException: <input>:25: error: unclosed string literal
+  val input3 = ""def P 1 = $1 !"
+                               ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.03 16:12:25 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+scala.meta.tokenizers.TokenizeException: <input>:25: error: unclosed multi-line string literal
+  val input3 = """def P 1 = $1 !"
+               ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getRawStringLit(LegacyScanner.scala:567)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:366)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.03 16:12:36 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+scala.meta.tokenizers.TokenizeException: <input>:24: error: unclosed string literal
+  val input1 = "5++"def P 1 = $1 !"
+                                  ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.03 16:12:36 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+scala.meta.tokenizers.TokenizeException: <input>:24: error: unclosed string literal
+  val input1 = ""def P 1 = $1 !"
+                               ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.03 16:12:39 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+scala.meta.tokenizers.TokenizeException: <input>:24: error: unclosed multi-line string literal
+  val input1 = """def P 1 = $1 !"
+               ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getRawStringLit(LegacyScanner.scala:567)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:366)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.03 16:12:42 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+scala.meta.tokenizers.TokenizeException: <input>:24: error: unclosed multi-line string literal
+  val input1 = """def P 1 = $1 !"
+               ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getRawStringLit(LegacyScanner.scala:567)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:366)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.03 16:12:43 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+scala.meta.tokenizers.TokenizeException: <input>:24: error: unclosed multi-line string literal
+  val input1 = """def P 1 = $1 !" "10---!"
+               ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getRawStringLit(LegacyScanner.scala:567)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:366)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.03 16:12:45 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+scala.meta.tokenizers.TokenizeException: <input>:24: error: unclosed multi-line string literal
+  val input1 = """def P 1 = $1 ! "10---!"
+               ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getRawStringLit(LegacyScanner.scala:567)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:366)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.03 16:12:46 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+scala.meta.tokenizers.TokenizeException: <input>:24: error: unclosed multi-line string literal
+  val input1 = """def P 1 = $1 ! 10---!"
+               ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getRawStringLit(LegacyScanner.scala:567)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:366)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.03 16:13:14 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:13:14 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:13:52 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:14:54 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:15:08 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:15:32 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:15:46 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:16:26 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:16:46 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:17:09 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:17:23 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:17:26 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:17:44 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:17:52 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:18:31 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:18:51 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:24:22 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:25:17 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:25:33 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:26:04 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:26:04 WARN  Using indexes to guess the definition of funVar
+2024.01.03 16:30:53 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:31:25 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:32:25 WARN  Using indexes to guess the definition of funVar
+2024.01.03 16:32:31 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:32:40 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:33:27 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:34:11 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+scala.meta.tokenizers.TokenizeException: <input>:8: error: unclosed character literal
+        def eof ''
+                ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+Exception in thread "pool-3-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024.01.03 16:34:24 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:34:24 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:34:27 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:34:42 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:35:10 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:35:49 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+scala.meta.tokenizers.TokenizeException: <input>:9: error: can't use unescaped LF in character literals
+        def end'
+                ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:383)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.03 16:35:59 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:36:07 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:36:16 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:36:40 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:36:52 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:37:09 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:39:15 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:39:30 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 16:40:24 INFO  Shutting down server
+2024.01.03 16:40:24 INFO  shutting down Metals
+2024.01.03 16:40:24 INFO  Exiting server
+2024.01.03 17:07:34 INFO  Started: Metals version 1.2.0 in folders '/home/dread/UNI/FPLP' for client Visual Studio Code 1.85.1.
+2024.01.03 17:07:35 WARN  Build server is not auto-connectable.
+2024.01.03 17:07:35 WARN  no build tool detected in workspace '/home/dread/UNI/FPLP'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.01.03 17:07:35 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.03 17:07:38 INFO  no build target found for /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2024.01.03 17:07:40 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/giugno2016/arnoldC.scala
+2024.01.03 17:07:40 INFO  time: code lens generation in 4.58s
+Jan 03, 2024 5:07:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+2024.01.03 17:08:02 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2016/ArithmeticParser.scala.scala
+2024.01.03 17:08:02 WARN  Could not find semantic tokens for: file:///home/dread/UNI/FPLP/scala/esami/febbraio2016/ArithmeticParser.scala.scala
+2024.01.03 17:08:10 WARN  Could not find semantic tokens for: file:///home/dread/UNI/FPLP/scala/esami/febbraio2016/ArithmeticParser.scala.scala
+2024.01.03 17:08:12 WARN  Could not find semantic tokens for: file:///home/dread/UNI/FPLP/scala/esami/febbraio2016/ArithmeticParser.scala.scala
+2024.01.03 17:08:18 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2016/ArithmeticParser.scala
+2024.01.03 17:08:18 WARN  Could not find semantic tokens for: file:///home/dread/UNI/FPLP/scala/esami/febbraio2016/ArithmeticParser.scala
+2024.01.03 17:08:18 WARN  Could not find semantic tokens for: file:///home/dread/UNI/FPLP/scala/esami/febbraio2016/ArithmeticParser.scala
+2024.01.03 17:08:21 WARN  Could not find semantic tokens for: file:///home/dread/UNI/FPLP/scala/esami/febbraio2016/ArithmeticParser.scala
+2024.01.03 17:08:21 WARN  Could not find semantic tokens for: file:///home/dread/UNI/FPLP/scala/esami/febbraio2016/ArithmeticParser.scala
+2024.01.03 17:08:31 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2016/ArithmeticParser.scala
+2024.01.03 17:08:36 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2024.01.03 17:08:56 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2016/ArithmeticParser.scala
+2024.01.03 17:15:19 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2016/ArithmeticParser.scala
+2024.01.03 17:18:53 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2016/ArithmeticParser.scala
+2024.01.03 17:19:06 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2016/ArithmeticParser.scala
+2024.01.03 17:20:59 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2016/ArithmeticParser.scala
+2024.01.03 17:21:04 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2016/ArithmeticParser.scala
+2024.01.03 17:22:09 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2016/ArithmeticParser.scala
+2024.01.03 17:22:19 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2016/ArithmeticParser.scala
+2024.01.03 17:23:20 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2016/ArithmeticParser.scala
+2024.01.03 17:23:23 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2016/ArithmeticParser.scala
+2024.01.03 17:23:37 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2016/ArithmeticParser.scala
+2024.01.03 17:23:57 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2016/ArithmeticParser.scala
+2024.01.03 18:11:50 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2016/ArithmeticParser.scala
+2024.01.03 18:12:17 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2016/ArithmeticParser.scala
+2024.01.03 18:12:45 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2016/ArithmeticParser.scala
+2024.01.03 18:58:56 INFO  Shutting down server
+2024.01.03 18:58:56 INFO  shutting down Metals
+2024.01.03 18:58:56 INFO  Exiting server
+2024.01.04 15:36:17 INFO  Started: Metals version 1.2.0 in folders '/home/dread/UNI/FPLP' for client Visual Studio Code 1.85.1.
+2024.01.04 15:36:18 WARN  Build server is not auto-connectable.
+2024.01.04 15:36:18 WARN  no build tool detected in workspace '/home/dread/UNI/FPLP'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.01.04 15:36:18 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2016/ArithmeticParser.scala
+Jan 04, 2024 3:36:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2024.01.04 15:36:21 INFO  no build target found for /home/dread/UNI/FPLP/scala/esami/febbraio2016/ArithmeticParser.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2024.01.04 15:36:23 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+Jan 04, 2024 3:36:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+2024.01.04 15:45:07 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+Jan 04, 2024 3:45:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 16
+2024.01.04 15:50:06 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 15:50:06 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 15:50:13 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+scala.meta.tokenizers.TokenizeException: <input>:6: error: unclosed string literal
+        fun_name "
+                 ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.04 15:50:28 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+scala.meta.tokenizers.TokenizeException: <input>:6: error: unclosed string literal
+        fun_name ::= "[A-Z]
+                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.04 15:50:30 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+scala.meta.tokenizers.TokenizeException: <input>:6: error: unclosed string literal
+        fun_name ::= "[A-Z]""
+                            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.04 15:50:32 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 15:53:00 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+scala.meta.tokenizers.TokenizeException: <input>:5: error: unclosed comment
+  /*
+  ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.04 15:53:02 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+scala.meta.tokenizers.TokenizeException: <input>:5: error: unclosed comment
+  /*
+  ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.04 15:53:03 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+scala.meta.tokenizers.TokenizeException: <input>:5: error: unclosed comment
+  /*
+  ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.04 16:00:20 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:00:56 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:03:18 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:12:22 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:12:38 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:16:11 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:16:14 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:19:30 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:20:00 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+Jan 04, 2024 4:21:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-04/r_compiler-error_16-21-35-113.md
+2024.01.04 16:22:34 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:22:43 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:22:43 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:23:01 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:23:41 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:24:30 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:24:36 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:25:15 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:25:30 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:26:15 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:26:53 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:27:04 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+Jan 04, 2024 4:27:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2561
+2024.01.04 16:28:17 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:28:42 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:28:51 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:29:01 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:29:09 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:29:40 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:30:44 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:30:44 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:32:32 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:33:03 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:33:17 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:33:17 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:34:46 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:35:15 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:35:38 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:35:47 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:42:31 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:50:37 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:51:18 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:51:45 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+scala.meta.tokenizers.TokenizeException: <input>:41: error: unclosed quoted identifier
+  def function = "def" ~> fun_name ~ args ~ ("="`)
+                                                ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getBackquotedIdent(LegacyScanner.scala:489)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:337)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.04 16:53:30 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:53:30 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:54:15 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+scala.meta.tokenizers.TokenizeException: <input>:44: error: unclosed string interpolation
+    case fname ~ args ~ fbody => println(s"FOUND $")
+                                           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:357)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.04 16:54:25 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+scala.meta.tokenizers.TokenizeException: <input>:44: error: unclosed string interpolation
+    case fname ~ args ~ fbody => println(s"FOUND $fname WITH ARGS $args AND BODY $")
+                                                                       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:249)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.04 16:54:29 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:55:28 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:55:47 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:56:06 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:56:16 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:56:42 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:57:12 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:57:22 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:57:42 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:58:00 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:58:00 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 16:58:20 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:00:03 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:01:17 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:05:53 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:18:34 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:18:40 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:19:25 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:19:58 WARN  Using indexes to guess the definition of minus
+2024.01.04 17:20:37 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:20:48 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:21:03 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:23:31 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:23:42 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+Jan 04, 2024 5:23:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-04/r_compiler-error_17-23-57-706.md
+Jan 04, 2024 5:23:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-04/r_compiler-error_17-23-57-804.md
+2024.01.04 17:23:57 WARN  Could not find semantic tokens for: file:///home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:25:27 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:27:54 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:28:16 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:29:24 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:29:24 WARN  Using indexes to guess the definition of Num
+2024.01.04 17:30:17 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:30:30 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:30:57 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:31:23 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:31:47 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:32:07 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:32:43 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:33:40 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:34:08 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:34:31 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:34:38 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:35:04 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:35:55 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:36:00 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:36:26 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:36:37 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:36:37 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:43:30 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:44:38 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.04 17:44:40 INFO  Shutting down server
+2024.01.04 17:44:40 INFO  shutting down Metals
+2024.01.04 17:44:40 INFO  Exiting server
+2024.01.06 10:48:08 INFO  Started: Metals version 1.2.0 in folders '/home/dread/UNI/FPLP' for client Visual Studio Code 1.85.1.
+2024.01.06 10:48:09 WARN  Build server is not auto-connectable.
+2024.01.06 10:48:09 WARN  no build tool detected in workspace '/home/dread/UNI/FPLP'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.01.06 10:48:09 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.06 10:48:13 INFO  no build target found for /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2024.01.06 10:48:15 INFO  time: code lens generation in 5.31s
+2024.01.06 10:50:03 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2024.01.06 10:51:09 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 10:51:09 WARN  Could not find semantic tokens for: file:///home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 10:51:10 WARN  Could not find semantic tokens for: file:///home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 10:53:34 WARN  Could not find semantic tokens for: file:///home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:11:38 WARN  Could not find semantic tokens for: file:///home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:11:39 WARN  Could not find semantic tokens for: file:///home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:11:40 WARN  Could not find semantic tokens for: file:///home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:11:41 WARN  Could not find semantic tokens for: file:///home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:11:45 WARN  Could not find semantic tokens for: file:///home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:11:45 WARN  Could not find semantic tokens for: file:///home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:11:45 WARN  Could not find semantic tokens for: file:///home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+Jan 06, 2024 11:11:48 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 92
+Jan 06, 2024 11:13:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying parentCheckOk.&&(org.scalameta.`package`.debug(this, parentPrefix, destination))
+found that parentCheckOk is false
+where TermRepeatedImpl = _.charAt*
+where destination = body
+where parentCheckOk = false
+where parentPrefix = Term.AnonymousFunction
+where this = _.charAt*
+java.util.concurrent.CompletionException: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying parentCheckOk.&&(org.scalameta.`package`.debug(this, parentPrefix, destination))
+found that parentCheckOk is false
+where TermRepeatedImpl = _.charAt*
+where destination = body
+where parentCheckOk = false
+where parentPrefix = Term.AnonymousFunction
+where this = _.charAt*
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying parentCheckOk.&&(org.scalameta.`package`.debug(this, parentPrefix, destination))
+found that parentCheckOk is false
+where TermRepeatedImpl = _.charAt*
+where destination = body
+where parentCheckOk = false
+where parentPrefix = Term.AnonymousFunction
+where this = _.charAt*
+	at org.scalameta.invariants.InvariantFailedException$.raise(Exceptions.scala:19)
+	at scala.meta.Term$Repeated$TermRepeatedImpl.checkParent$8(Trees.scala:240)
+	at scala.meta.Term$Repeated$TermRepeatedImpl.privateCopy(Trees.scala:241)
+	at scala.meta.Term$AnonymousFunction$.apply(Trees.scala:219)
+	at scala.meta.internal.parsers.ScalametaParser$.$anonfun$scala$meta$internal$parsers$ScalametaParser$$maybeAnonymousFunction$2(ScalametaParser.scala:4725)
+	at scala.meta.internal.parsers.ScalametaParser$.scala$meta$internal$parsers$ScalametaParser$$copyPos(ScalametaParser.scala:4755)
+	at scala.meta.internal.parsers.ScalametaParser$.scala$meta$internal$parsers$ScalametaParser$$maybeAnonymousFunction(ScalametaParser.scala:4725)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$argumentExprsOrPrefixExpr$4(ScalametaParser.scala:2445)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$makeTuple(ScalametaParser.scala:667)
+	at scala.meta.internal.parsers.ScalametaParser.makeTupleTerm(ScalametaParser.scala:677)
+	at scala.meta.internal.parsers.ScalametaParser.argumentExprsOrPrefixExpr(ScalametaParser.scala:2447)
+	at scala.meta.internal.parsers.ScalametaParser.getNextRhs$2(ScalametaParser.scala:2129)
+	at scala.meta.internal.parsers.ScalametaParser.getPostfixOrNextRhs$1(ScalametaParser.scala:2161)
+	at scala.meta.internal.parsers.ScalametaParser.loop$6(ScalametaParser.scala:2181)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2209)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2102)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1682)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:322)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:366)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1587)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1486)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$funDefRest$1(ScalametaParser.scala:3827)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:368)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:373)
+	at scala.meta.internal.parsers.ScalametaParser.funDefRest(ScalametaParser.scala:3789)
+	at scala.meta.internal.parsers.ScalametaParser.funDefOrDclOrExtensionOrSecondaryCtor(ScalametaParser.scala:3734)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3564)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3543)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4517)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4511)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4462)
+	at scala.meta.internal.parsers.ScalametaParser.getStats$2(ScalametaParser.scala:4501)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scala$meta$internal$parsers$ScalametaParser$$templateStatSeq$3(ScalametaParser.scala:4502)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$scala$meta$internal$parsers$ScalametaParser$$templateStatSeq$3$adapted(ScalametaParser.scala:4499)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:568)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$templateStatSeq(ScalametaParser.scala:4499)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$templateStatSeq(ScalametaParser.scala:4491)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBody$1(ScalametaParser.scala:4342)
+	at scala.meta.internal.parsers.ScalametaParser.inBracesOr(ScalametaParser.scala:260)
+	at scala.meta.internal.parsers.ScalametaParser.inBraces(ScalametaParser.scala:256)
+	at scala.meta.internal.parsers.ScalametaParser.templateBody(ScalametaParser.scala:4342)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4346)
+	at scala.meta.internal.parsers.ScalametaParser.templateAfterExtends(ScalametaParser.scala:4289)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$template$1(ScalametaParser.scala:4310)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:319)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.template(ScalametaParser.scala:4297)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4335)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:319)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4327)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$classDef$1(ScalametaParser.scala:3957)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:368)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:373)
+	at scala.meta.internal.parsers.ScalametaParser.classDef(ScalametaParser.scala:3933)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3892)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:3877)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4483)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4471)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4462)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$13(ScalametaParser.scala:4696)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4696)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:319)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4652)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4645)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:319)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:365)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4645)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4650)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:135)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:132)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:59)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:54)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:132)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.parsing.Trees.$anonfun$parse$2(Trees.scala:139)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.Trees.parse(Trees.scala:130)
+	at scala.meta.internal.parsing.Trees.didChange(Trees.scala:100)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$parseTreesAndPublishDiags$2(MetalsLspService.scala:859)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:687)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2024.01.06 11:14:12 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+scala.meta.tokenizers.TokenizeException: <input>:8: error: unclosed string literal
+    def main="print"~>expression ~ ("where)
+                                    ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.06 11:14:12 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+scala.meta.tokenizers.TokenizeException: <input>:8: error: unclosed string literal
+    def main="print"~>expression ~ ("where:"")
+                                            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.06 11:14:13 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+scala.meta.tokenizers.TokenizeException: <input>:8: error: unclosed string literal
+    def main="print"~>expression ~ ("where:)
+                                    ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.06 11:15:30 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:15:34 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+scala.meta.tokenizers.TokenizeException: <input>:7: error: unclosed string interpolation
+    def assignment = v"
+                       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:357)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.06 11:15:34 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+scala.meta.tokenizers.TokenizeException: <input>:7: error: unclosed string interpolation
+    def assignment = variabl"
+                             ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:357)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.06 11:15:35 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+scala.meta.tokenizers.TokenizeException: <input>:7: error: unclosed string interpolation
+    def assignment = variable"
+                              ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:357)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.06 11:15:36 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+scala.meta.tokenizers.TokenizeException: <input>:7: error: unclosed string interpolation
+    def assignment = variabl"
+                             ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:357)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.06 11:15:37 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+scala.meta.tokenizers.TokenizeException: <input>:7: error: unclosed string interpolation
+    def assignment = variable"
+                              ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:357)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.06 11:16:30 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:16:43 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:16:58 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:17:20 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:17:32 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:18:04 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:18:05 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:18:55 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:20:09 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+scala.meta.tokenizers.TokenizeException: <input>:8: error: unclosed string literal
+    def assignment = variable~("intValue)^^{
+                               ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.06 11:20:32 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:20:54 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:21:00 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:29:13 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:30:12 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:30:47 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:31:51 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:32:26 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:33:07 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:34:14 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:34:38 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:35:00 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:35:14 WARN  Using indexes to guess the definition of term2
+2024.01.06 11:35:15 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:36:46 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+scala.meta.tokenizers.TokenizeException: <input>:11: error: Invalid literal number
+    def expression:Parser[()=>Int] = 9term ~ ("+"|"-") ~ expression ^^{
+                                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:820)
+	at scala.meta.internal.tokenizers.LegacyScanner.restOfUncertainToken$1(LegacyScanner.scala:864)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:872)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:335)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.06 11:36:52 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:37:09 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:37:42 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:38:22 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:39:42 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2024.01.06 11:42:43 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+Jan 06, 2024 11:42:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3080
+2024.01.06 11:42:55 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:43:46 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:44:23 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:44:30 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:45:04 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:45:48 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 11:46:36 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.06 12:07:53 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 12:07:53 WARN  Could not find semantic tokens for: file:///home/dread/UNI/FPLP/scala/esami/parziale%20anno%20scorso/LogLang.scala
+2024.01.06 12:07:54 WARN  Could not find semantic tokens for: file:///home/dread/UNI/FPLP/scala/esami/parziale%20anno%20scorso/LogLang.scala
+Jan 06, 2024 3:38:54 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jan 06, 2024 3:38:54 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.01.06 16:30:37 WARN  Could not find semantic tokens for: file:///home/dread/UNI/FPLP/scala/esami/parziale%20anno%20scorso/LogLang.scala
+2024.01.06 16:30:55 WARN  Could not find semantic tokens for: file:///home/dread/UNI/FPLP/scala/esami/parziale%20anno%20scorso/LogLang.scala
+2024.01.06 16:31:11 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2024.01.06 16:31:16 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 16:32:30 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 16:32:53 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 16:33:34 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 16:34:04 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 16:34:49 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 16:38:11 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 16:39:03 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+scala.meta.tokenizers.TokenizeException: <input>:14: error: unclosed multi-line string literal
+    val input=""""
+              ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getRawStringLit(LegacyScanner.scala:567)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:366)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.06 16:39:23 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 16:40:09 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 16:40:20 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 16:40:29 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala
+2024.01.06 16:40:32 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 16:40:47 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 16:41:23 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 16:41:28 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 16:41:45 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 16:41:53 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 16:42:04 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/luglio2016/wtf.scala
+2024.01.06 16:42:09 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/gennaio2016/LogLang.scala
+2024.01.06 16:42:24 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 16:42:37 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 16:43:13 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 16:43:42 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 16:45:14 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 16:46:16 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 16:46:33 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 16:46:49 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 16:47:51 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 16:48:22 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/gennaio2016/LogLang.scala
+Jan 06, 2024 4:51:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-06/r_compiler-error_16-51-41-238.md
+Jan 06, 2024 4:51:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-06/r_compiler-error_16-51-45-868.md
+Jan 06, 2024 4:51:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-06/r_compiler-error_16-51-49-024.md
+Jan 06, 2024 4:52:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-06/r_compiler-error_16-52-08-751.md
+Jan 06, 2024 4:52:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-06/r_compiler-error_16-52-11-758.md
+2024.01.06 16:52:19 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+scala.meta.tokenizers.TokenizeException: <input>:36: error: unclosed string interpolation
+                case l.~(t,o) => println"
+                                         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:357)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+Jan 06, 2024 4:52:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-06/r_compiler-error_16-52-20-747.md
+Jan 06, 2024 4:52:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-06/r_compiler-error_16-52-48-659.md
+Jan 06, 2024 4:52:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-06/r_compiler-error_16-52-55-347.md
+Jan 06, 2024 4:52:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-06/r_compiler-error_16-52-59-060.md
+Jan 06, 2024 4:53:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-06/r_compiler-error_16-53-05-254.md
+Jan 06, 2024 4:53:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-06/r_compiler-error_16-53-05-811.md
+2024.01.06 16:53:08 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+scala.meta.tokenizers.TokenizeException: <input>:38: error: unclosed character literal
+                    o.zipWithIndex.foreach((op,i).println(''))
+                                                          ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+Jan 06, 2024 4:53:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-06/r_compiler-error_16-53-10-837.md
+2024.01.06 16:53:19 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+scala.meta.tokenizers.TokenizeException: <input>:38: error: `$$', `$'ident, `$'this, `$'BlockExpr`$'_
+                    o.zipWithIndex.foreach((op,i).println(s"[OP $]"))
+                                                            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:649)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:357)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.06 16:53:27 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+scala.meta.tokenizers.TokenizeException: <input>:38: error: unclosed string interpolation
+                    o.zipWithIndex.foreach((op,i).println(s"[OP $op]: $"))
+                                                                   ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:249)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.06 16:53:33 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+Jan 06, 2024 4:53:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6541
+Jan 06, 2024 4:54:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-06/r_compiler-error_16-54-01-879.md
+Jan 06, 2024 4:54:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-06/r_compiler-error_16-54-03-193.md
+Jan 06, 2024 4:54:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-06/r_compiler-error_16-54-07-131.md
+Jan 06, 2024 4:54:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-06/r_compiler-error_16-54-08-595.md
+2024.01.06 16:54:22 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+scala.meta.tokenizers.TokenizeException: <input>:39: error: unclosed string interpolation
+                        case (o,i)=>println(s"[OP $i]: $")
+                                                    ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:249)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.06 16:54:24 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 16:57:53 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 16:58:03 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 16:58:33 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 16:59:26 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/gennaio2016/LogLang.scala
+2024.01.06 16:59:51 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:00:08 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+scala.meta.tokenizers.TokenizeException: <input>:39: error: unclosed comment
+    /*l.parseAll(l.main,input) match {
+    ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+Jan 06, 2024 5:00:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-06/r_compiler-error_17-00-21-977.md
+Jan 06, 2024 5:00:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-06/r_compiler-error_17-00-25-439.md
+2024.01.06 17:00:32 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+scala.meta.tokenizers.TokenizeException: <input>:40: error: Invalid literal number
+    println(8re)
+            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.checkNoLetter(LegacyScanner.scala:820)
+	at scala.meta.internal.tokenizers.LegacyScanner.restOfUncertainToken$1(LegacyScanner.scala:864)
+	at scala.meta.internal.tokenizers.LegacyScanner.getNumber(LegacyScanner.scala:872)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:335)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.06 17:00:33 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:00:55 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:01:00 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:01:33 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+Jan 06, 2024 5:02:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7314
+2024.01.06 17:02:56 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+Jan 06, 2024 5:03:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-06/r_compiler-error_17-03-35-888.md
+Jan 06, 2024 5:03:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-06/r_compiler-error_17-03-36-493.md
+Jan 06, 2024 5:03:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-06/r_compiler-error_17-03-43-398.md
+2024.01.06 17:03:51 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+scala.meta.tokenizers.TokenizeException: <input>:43: error: unclosed string interpolation
+                case l.~(t,o) => {println(s"task: $")}
+                                            ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:357)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.06 17:03:53 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+Jan 06, 2024 5:04:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7599
+Jan 06, 2024 5:04:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-06/r_compiler-error_17-04-34-395.md
+Jan 06, 2024 5:04:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-06/r_compiler-error_17-04-38-642.md
+Jan 06, 2024 5:04:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-06/r_compiler-error_17-04-44-861.md
+Jan 06, 2024 5:04:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-06/r_compiler-error_17-04-48-284.md
+2024.01.06 17:04:51 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+scala.meta.tokenizers.TokenizeException: <input>:46: error: `$$', `$'ident, `$'this, `$'BlockExpr`$'_
+                        case (op,index) => println(s"[Op $]")
+                                                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:649)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:357)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.06 17:05:01 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+scala.meta.tokenizers.TokenizeException: <input>:46: error: unclosed string interpolation
+                        case (op,index) => println(s"[Op $index]: $")
+                                                               ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:249)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.06 17:05:03 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:05:54 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+scala.meta.tokenizers.TokenizeException: <input>:51: error: unclosed string interpolation
+        case _ => println"
+                          ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:357)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.06 17:05:59 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:06:02 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+scala.meta.tokenizers.TokenizeException: <input>:46: error: unclosed string interpolation
+                        case (op,index) => println(s"[Op "$index]: $op")
+                                                                       ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:357)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.06 17:06:04 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+scala.meta.tokenizers.TokenizeException: <input>:46: error: unclosed string interpolation
+                        case (op,index) => println(s"[Op "+$index]: $op")
+                                                                        ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:357)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.06 17:06:15 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+Jan 06, 2024 5:06:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /home/dread/UNI/FPLP/.metals/.reports/metals-full/2024-01-06/r_compiler-error_17-06-18-977.md
+2024.01.06 17:06:22 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:08:24 ERROR Failed to tokenize input for semantic tokens for /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+scala.meta.tokenizers.TokenizeException: <input>:22: error: unclosed string literal
+    def remove(filename:String)"{
+                               ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:541)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:840)
+
+2024.01.06 17:08:30 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:16:48 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:17:11 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:17:14 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:17:25 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:24:35 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:24:59 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/gennaio2016/LogLang.scala
+2024.01.06 17:25:10 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:25:37 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/gennaio2016/LogLang.scala
+2024.01.06 17:29:11 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:29:37 WARN  Using indexes to guess the definition of main
+2024.01.06 17:29:46 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:30:05 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:30:23 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:30:39 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:30:42 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:34:50 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/gennaio2016/LogLang.scala
+2024.01.06 17:36:39 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:36:52 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:37:27 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:40:15 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:42:07 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:42:33 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:44:12 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:45:25 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:45:28 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:45:38 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:55:35 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:56:01 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 17:56:17 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/giugno2016/arnoldC.scala
+Jan 06, 2024 5:56:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10864
+2024.01.06 17:59:44 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 18:00:04 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 18:00:16 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 18:00:46 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 18:00:58 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/gennaio2016/LogLang.scala
+2024.01.06 18:01:15 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/giugno2016/arnoldC.scala
+2024.01.06 18:01:30 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 18:02:12 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 18:02:37 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/giugno2016/arnoldC.scala
+2024.01.06 18:02:37 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/giugno2016/arnoldC.scala
+2024.01.06 18:02:39 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
+2024.01.06 18:02:49 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang.scala
