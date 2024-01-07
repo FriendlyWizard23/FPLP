@@ -1,37 +1,32 @@
-file://<WORKSPACE>/scala/esami/luglio2016/wtf.scala
+file://<WORKSPACE>/scala/exercices/lab02/03/arithops.scala
 ### java.lang.IndexOutOfBoundsException: 0
 
 occurred in the presentation compiler.
 
 action parameters:
-offset: 387
-uri: file://<WORKSPACE>/scala/esami/luglio2016/wtf.scala
+offset: 483
+uri: file://<WORKSPACE>/scala/exercices/lab02/03/arithops.scala
 text:
 ```scala
-import scala.util.parsing.combinator._
-import scala.collection.mutable._
-
-class Wtf(var stack:Stack[Int]) extends JavaTokenParsers{
-        def program = expression|number
-        def expression = number ~ rep("+") ~ (print|eol) ^^{
-            case n ~ o ~ e=> if (o.contains("+"))stack.push(n+o.length)else{stack.push(n-o.length)}
-        } 
-        def eol=""
-        def print="!"^^(@@)
-        def number=wholeNumber^^(_.toInt)
+import scala.util.parsing.combinators._
+class Arithops() extends JavaTokenParsers{
+    
+    def numbers:Parser[()=>Int] = """[0-9]+""".r^^{
+        case n => ()=>n.toInt
+    }
+    def inlineop:Parser[()=>Int] = numbers~("+"|"-")~inlineop^^{
+        case e~"+"~o => e()+o()
+        case e~"-"~o => e()-o()
+    }
+    def main = inlineop<~"="^^{
+        case e => println(e())
+    }
 }
 
-object ParserTester extends App {
-  val input1 = "5+++"
-  val input2 = "10---"
-
-  val parser = new Wtf(new Stack())
-
-  println(s"Testing with input: $input1")
-  parser.parseAll(parser.program, input1)
-
-  println(s"\nTesting with input: $input2")
-  parser.parseAll(parser.program, input2)
+object tester extends App{
+    val a = new Arithops
+    val input = "1423+4534-234="
+    a.parseall(@@)
 }
 ```
 
