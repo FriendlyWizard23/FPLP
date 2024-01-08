@@ -1,3 +1,13 @@
+file://<WORKSPACE>/scala/esami/parziale%20anno%20scorso/LogLang.scala
+### java.lang.IndexOutOfBoundsException: 0
+
+occurred in the presentation compiler.
+
+action parameters:
+offset: 2300
+uri: file://<WORKSPACE>/scala/esami/parziale%20anno%20scorso/LogLang.scala
+text:
+```scala
 import scala.util.parsing.combinator._
 import java.io._
 import util.Try
@@ -71,7 +81,8 @@ object parser extends App{
     }
     l.parseAll(l.program,fileContent) match {
         case l.Success(result,_) => result.foreach{
-            _ match {
+            d match {
+                println(@@)
                 case l.~(t,o) => {
                     println(s"task: $t")
                     o.zipWithIndex.foreach{
@@ -83,3 +94,24 @@ object parser extends App{
         case _ => println("An error occurred")
     }
 }
+```
+
+
+
+#### Error stacktrace:
+
+```
+scala.collection.LinearSeqOps.apply(LinearSeq.scala:131)
+	scala.collection.LinearSeqOps.apply$(LinearSeq.scala:128)
+	scala.collection.immutable.List.apply(List.scala:79)
+	dotty.tools.dotc.util.Signatures$.countParams(Signatures.scala:501)
+	dotty.tools.dotc.util.Signatures$.applyCallInfo(Signatures.scala:186)
+	dotty.tools.dotc.util.Signatures$.computeSignatureHelp(Signatures.scala:94)
+	dotty.tools.dotc.util.Signatures$.signatureHelp(Signatures.scala:63)
+	scala.meta.internal.pc.MetalsSignatures$.signatures(MetalsSignatures.scala:17)
+	scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:51)
+	scala.meta.internal.pc.ScalaPresentationCompiler.signatureHelp$$anonfun$1(ScalaPresentationCompiler.scala:388)
+```
+#### Short summary: 
+
+java.lang.IndexOutOfBoundsException: 0

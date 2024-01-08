@@ -71,8 +71,9 @@ object parser extends App{
     }
     l.parseAll(l.program,fileContent) match {
         case l.Success(result,_) => result.foreach{
-            _ match {
+            _ match{
                 case l.~(t,o) => {
+                    println(l);
                     println(s"task: $t")
                     o.zipWithIndex.foreach{
                         case (op,index) => println(s"[Op "+(index+1).toString+s"]: $op")
