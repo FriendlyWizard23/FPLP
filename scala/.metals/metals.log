@@ -245,3 +245,21 @@ scala.meta.tokenizers.TokenizeException: <input>:11: error: unclosed string lite
 2024.01.01 19:23:50 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk2.scala[0m
 2024.01.01 19:28:32 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk2.scala[0m
 2024.01.01 19:28:54 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk2.scala[0m
+2024.01.09 11:42:45 INFO  Shutting down server[0m
+2024.01.09 11:42:45 INFO  shutting down Metals[0m
+2024.01.09 11:42:45 INFO  Exiting server[0m
+2024.01.09 11:43:00 INFO  Started: Metals version 1.2.0 in folders '/home/dread/UNI/FPLP/scala' for client VSCodium 1.85.1.[0m
+2024.01.09 11:43:01 WARN  Build server is not auto-connectable.[0m
+2024.01.09 11:43:01 WARN  no build tool detected in workspace '/home/dread/UNI/FPLP/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2024.01.09 11:43:01 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk2.scala[0m
+2024.01.09 11:43:01 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang2.scala[0m
+2024.01.09 11:43:05 INFO  no build target found for /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk2.scala. Using presentation compiler with project's scala-library version: 3.3.1[0m
+2024.01.09 11:43:07 INFO  time: code lens generation in 5.35s[0m
+2024.01.09 11:46:07 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang2.scala[0m
+2024.01.09 11:56:19 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/parziale anno scorso/LogLang2.scala[0m
+2024.01.09 11:56:36 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk.scala[0m
+2024.01.09 11:59:38 WARN  no build target for: /home/dread/UNI/FPLP/scala/exercices/lab02/03/arithops2.scala[0m
+2024.01.09 12:08:42 WARN  no build target for: /home/dread/UNI/FPLP/scala/exercices/lab02/03/arithops2.scala[0m
+2024.01.09 12:15:37 INFO  Shutting down server[0m
+2024.01.09 12:15:37 INFO  shutting down Metals[0m
+2024.01.09 12:15:37 INFO  Exiting server[0m

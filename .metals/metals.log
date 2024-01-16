@@ -5579,3 +5579,12 @@ SEVERE: A severe compiler error occurred, full details of the error can be found
 2024.01.08 23:54:44 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
 2024.01.08 23:54:47 INFO  no build target found for /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala. Using presentation compiler with project's scala-library version: 3.3.1
 2024.01.08 23:54:49 INFO  time: code lens generation in 4.59s
+2024.01.08 23:55:05 INFO  Shutting down server
+2024.01.08 23:55:05 INFO  shutting down Metals
+2024.01.08 23:55:05 INFO  Exiting server
+2024.01.16 12:51:03 INFO  Started: Metals version 1.2.0 in folders '/home/dread/UNI/FPLP' for client Visual Studio Code 1.85.1.
+2024.01.16 12:51:04 WARN  Build server is not auto-connectable.
+2024.01.16 12:51:04 WARN  no build tool detected in workspace '/home/dread/UNI/FPLP'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2024.01.16 12:51:04 WARN  no build target for: /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala
+2024.01.16 12:51:08 INFO  no build target found for /home/dread/UNI/FPLP/scala/esami/febbraio2015/desk3.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2024.01.16 12:51:09 INFO  time: code lens generation in 3.96s
