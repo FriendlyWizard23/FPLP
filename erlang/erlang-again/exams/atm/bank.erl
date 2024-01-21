@@ -1,0 +1,2 @@
+-module(bank).
+-export([start/1,setup/1])
